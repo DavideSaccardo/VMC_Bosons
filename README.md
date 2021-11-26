@@ -1,4 +1,4 @@
-# FYS4411---Project-1-VMC
+# FYS4411---Project-1: VMC_Bosons
 Inside src lies the program used to perform the Variational Monte Carlo (VMC) algorithms on a system of bosons in a spherical or elliptical harmonic potential. 
 Parameters such as number of particles, number of dimensions, number of Monte carlo steps, variational parameter alpha, parameter beta to control the shape of potential, frequency of harmonic potential, etc. are set in main.cpp. If you wish to study non-interacting bosons, make sure that interactionSize = 0 and beta=1. Alter beta to change from a spherical to an elliptical HO potential. For our studies we have used beta = 2.82843 which is equal to omega_z and interactionSize=0.0043. It is also possible to perform a numerical derivatives instead of an analytical one just comment and un-comment the appropriate lines in Hamiltonians->HarmonicOscillator::computeLocalEnergy.
 
